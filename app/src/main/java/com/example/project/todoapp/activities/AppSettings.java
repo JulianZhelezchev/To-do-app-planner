@@ -26,13 +26,7 @@ public class AppSettings extends AppCompatActivity {
         getPrefFragment();
     }
 
-    public static class AppPreference extends PreferenceFragment{
-        @Override
-        public void onCreate(@Nullable Bundle savedInstanceState) {
-            super.onCreate(savedInstanceState);
-            addPreferencesFromResource(R.xml.app_preferences);
-        }
-    }
+
 
     //getting the setting fragment
     private void getPrefFragment(){
